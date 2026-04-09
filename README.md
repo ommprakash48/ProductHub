@@ -2,77 +2,40 @@
 
 ## 📌 Project Overview
 
-**ProductHub** is a dynamic web application that allows users to explore and discover products in an easy and interactive way.
-The application fetches real-time product data from a public API and displays it using a clean, responsive user interface.
-
-This project is built as part of a capstone assignment to demonstrate practical knowledge of JavaScript, API integration, and UI development.
+**ProductHub** is a responsive web application that allows users to explore, search, filter, and sort products efficiently.
+It fetches real-time data from a public API and displays it in a clean and interactive UI.
 
 ---
 
-## 🎯 Objective
+## 🚀 Live Demo
 
-The main objective of this project is to:
+👉 (Add your deployed link here after hosting)
 
-* Build a real-world web application using **JavaScript**
-* Integrate a public API using the **Fetch API**
-* Display dynamic data on a webpage
-* Prepare for advanced features like **search, filtering, and sorting**
+---
+
+## 🎯 Features
+
+* 🔍 **Search Products**
+* 🗂 **Filter by Category**
+* 📊 **Sort by Price (Low → High / High → Low)**
+* ❤️ **Add to Favorites (LocalStorage)**
+* 🌙 **Dark Mode / Light Mode**
+* 📱 **Fully Responsive Design**
 
 ---
 
 ## 🔌 API Used
 
-The application uses the following public API:
-
-👉 **DummyJSON Products API**
-https://dummyjson.com/products
-
-This API provides:
-
-* Product title
-* Description
-* Price
-* Category
-* Images
-
----
-
-## ⚙️ Planned Features
-
-The following features will be implemented in upcoming milestones:
-
-### 🔍 Search
-
-Users will be able to search for products using keywords
-
-### 🗂 Filtering
-
-Filter products based on categories
-
-### 📊 Sorting
-
-Sort products by price or alphabetical order
-
-### ❤️ Favorites
-
-Save products using **localStorage**
-
-### 🌙 Dark Mode
-
-Switch between light and dark themes
-
-### 📱 Responsive Design
-
-Optimized for mobile, tablet, and desktop
+👉 https://dummyjson.com/products
 
 ---
 
 ## 🛠 Technologies Used
 
-* **HTML5**
-* **CSS3**
-* **JavaScript (ES6+)**
-* **Fetch API**
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Fetch API
 
 ---
 
@@ -85,3 +48,36 @@ ProductHub/
 │── script.js
 │── README.md
 ```
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/ommprakash48/ProductHub.git
+```
+
+2. Open the folder
+
+```bash
+cd ProductHub
+```
+
+3. Run the project
+   Open **index.html** in your browser
+
+---
+
+## 💡 Bonus Features Implemented
+
+* LocalStorage (Favorites + Theme)
+* Loading Indicator
+* Responsive UI
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates the use of JavaScript, API integration, and modern UI practices to build a dynamic and user-friendly web application.
